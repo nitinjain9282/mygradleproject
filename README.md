@@ -33,4 +33,4 @@ On running gradle build in terminal, following changes happen:
 2- src dir structure changed as per maven standards. 
 
 gradle/wrapper/gradle-wrapper.jar is produced as before as end result of gradle build. 
-
+Done - tags-1.0.2_import_as_gradle_project.
