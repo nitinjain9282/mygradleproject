@@ -1,6 +1,7 @@
 # mygradleproject1
  
 #This is just sample project to undetstand gradle concepts. 
+source: https://www.linkedin.com/learning/gradle-for-java-developers/simple-java-example
 --------------------------------------------------------------------
 Step1: 
 L:\mylearning\mygradleproject
@@ -18,3 +19,10 @@ SaleEvent: 100, 123 Main St., Naperville
 
 Commit tag 1.0.0
 --------------------------------------------------------------------
+In this part, we are adding simple build.gradle file and perform simple gradle build. 
+Once we have added steps 1-4 in build.gradle then we can open terminal again and run command ' gradle build'.
+This does two things -
+1- Added build directory which contains SaleEvents.class
+2- in libs folder, it build our project Artifact which is build/libs/mygradleproject.jar
+Done - tags-1.0.2 
+--------------------------------------------------------------------------

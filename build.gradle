@@ -1,0 +1,23 @@
+// apply plugin for language used
+apply plugin: "java"
+
+// add source code declaration
+sourceSets {
+    main {
+        java.srcDirs = ['src']
+    }
+}
+// add external library dependency
+dependencies {
+    compile 'com.google.code.gson:gson:2.8.0'
+}
+
+// add repository declaration
+repositories() {
+    mavenCentral()
+}
+
+
+
+
+
