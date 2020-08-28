@@ -24,5 +24,13 @@ Once we have added steps 1-4 in build.gradle then we can open terminal again and
 This does two things -
 1- Added build directory which contains SaleEvents.class
 2- in libs folder, it build our project Artifact which is build/libs/mygradleproject.jar
-Done - tags-1.0.2 
+Done - tags-1.0.1_first_gradle_build.
 --------------------------------------------------------------------------
+WE can close IntelliJ and reopen project. It gives popup to import as gradle project. 
+Alternatively, we can copy this dir and import freshly as gradle project in IntelliJ. 
+On running gradle build in terminal, following changes happen: 
+1- gradle dir with gradle-wrapper.jar and gradle-wrapper.properties created. 
+2- src dir structure changed as per maven standards. 
+
+gradle/wrapper/gradle-wrapper.jar is produced as before as end result of gradle build. 
+
