@@ -16,12 +16,5 @@ output:
 SaleEvent: 100, 123 Main St., Naperville
 {"id":"100","streetAddress":"123 Main St.","city":"Naperville"}
 
+Commit tag 1.0.0
 --------------------------------------------------------------------
-
-In this part, we are adding simple build.gradle file and perform simple gradle build. 
-Once we have added steps 1-4 in build.gradle then we can open terminal again and run command ' gradle build'.
-This does two things -
-1- Added build directory which contains SaleEvents.class
-2- in libs folder, it built our project Artifact which is mygradleproject1.jar
-Done - tags-1.0.2 
------------------------------------------------------------------------------
